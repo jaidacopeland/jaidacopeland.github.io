@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Jaida Copeland</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+            text-align: center;
+        }
+        .about-section img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1em;
+        }
+        .socials a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 500;
+            color: #4a7c59;
+        }
+        .socials a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="logo">🌿 JC</div>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="work.html">Work Experience</a>
@@ -19,9 +45,22 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>About Me</h1>
-            <p>Content coming soon!</p>
+        <section class="about-section">
+            <img src="../assets/profile.jpg" alt="Jaida Copeland">
+            <h1>Hey, I'm Jaida!</h1>
+            <p>
+                I’m a Corporate Innovation & Entrepreneurship major with a minor in Sustainable Leadership at Penn State.
+                I care deeply about how innovation can drive meaningful environmental change, and I’m building my career around helping companies become more sustainable — whether that’s through consulting, operations, or (one day) as a Chief Sustainability Officer.
+            </p>
+            <p>
+                I’ve worked on sustainability strategy with the World Wildlife Fund, analyzed green lab practices, and supported employee sustainability engagement at Penn State. 
+                I love learning new things, running outdoors, and finding new coffee shops to fuel my next big idea.
+            </p>
+            <p class="socials">
+                <a href="mailto:jrc6709@psu.edu">📧 Email</a>
+                <a href="https://www.linkedin.com/in/jaidacopeland/" target="_blank">💼 LinkedIn</a>
+                <a href="../assets/Jaida_Copeland_Resume.pdf" target="_blank">📄 Resume</a>
+            </p>
         </section>
     </main>
     <footer>
