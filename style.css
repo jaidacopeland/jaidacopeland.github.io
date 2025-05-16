@@ -1,5 +1,5 @@
 
-/* Base Styles */
+/* Base Styling */
 body {
     font-family: 'Georgia', serif;
     margin: 0;
@@ -7,13 +7,12 @@ body {
     color: #2e2e2e;
 
     /* Vine Margins */
-    background-image: url('assets/single-vine.png'), url('assets/single-vine.png');
+    background-image: url('assets/fixed-single-vine.png'), url('assets/fixed-single-vine.png');
     background-position: left top, right top;
     background-repeat: repeat-y, repeat-y;
     background-attachment: scroll, scroll;
-    background-size: 225px 300px, 225px 300px;
+    background-size: 225px auto, 225px auto;
 
-    /* Padding to match background width */
     padding-left: 225px;
     padding-right: 225px;
 }
@@ -40,7 +39,6 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    transition: color 0.3s, border-bottom 0.3s;
 }
 
 nav ul li a:hover,
@@ -56,7 +54,6 @@ main {
     margin: auto;
 }
 
-/* Sections */
 section {
     margin-bottom: 2.5rem;
 }
